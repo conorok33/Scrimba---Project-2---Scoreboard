@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: lightskyblue;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scores {
+    width: 110px;
+    height: 110px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 0;
+}
+
+button {
+    background: lightskyblue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
